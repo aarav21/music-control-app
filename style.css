@@ -1,0 +1,25 @@
+#maindiv{
+    height: 1800px;
+    background-image: url("resized-image-Promo.jpeg") ;
+    background-size:cover;
+    background-position:center;
+
+}
+#name_of_song{
+    color: whitesmoke;
+    font-size: 100px;
+}
+
+.hp_slide{
+    width:70%;
+    background:rgba(255, 255, 255, 0.363);
+    height:25px;
+    border-radius: 5px;
+    margin-left: 120px;
+}
+.hp_range{
+    width: 50px;
+    border-radius: 5px;
+    background:rgb(92, 136, 190);
+    height:25px;
+}

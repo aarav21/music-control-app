@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html style="zoom: 50%;">
+
+<head>
+  <title>AI DJ WEB APP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="font-family: 'Source Sans Pro', sans-serif; text-align: center;">
+
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="maindiv">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <Br>
+    <br>
+    <br>
+    <br>
+    <div
+      style="border-radius: 30px; height: 40%; width: 70%; background-color: rgba(15, 15, 15, 0.671); text-align: center; margin-left: 200px; margin-top: 100px;">
+      <br>
+      <Br>
+      <Br>
+      <h1 id="name_of_song">Relaxing Jazz.</h1>
+      <br>
+      <h2 style="font-size:  50px; color: white;">Cafe Music BGM</h2>
+      <br>
+      <br>
+      <br>
+      <Br>
+      <div class="hp_slide">
+        <div class="hp_range"></div>
+      </div>
+      <br>
+      <h1 style="font-size:  50px; color: white;">2:38</h1>
+      <br>
+      <Br>
+      <span>
+        <h3 class="btn btn-dark" style=" font-size: 30px; font-weight: bold; margin-bottom: 10px; margin-right: 30px; border-radius: 20px;">Speed <span id="speed"></span></h3>
+        <img src="https://img.icons8.com/material-rounded/112/fa314a/play-button-circled--v1.png" onClick="play() " id="control" />
+        <h3 class="btn btn-dark" style=" font-size: 30px; font-weight: bold; margin-bottom: 10px; margin-left: 30px; border-radius: 20px;" >Volume <span id="volume"></span></h3>
+      </span>
+
+    </div>
+  </div>
+  <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" id="canvas" style="margin-left:1500px; margin-top: -2000px;">
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
